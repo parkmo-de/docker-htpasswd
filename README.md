@@ -8,4 +8,4 @@ To generate a password file:
 docker run --rm -ti parkmo/htpasswd <username> <password> > htpasswd
 ```
 
-This will use SHA1 encryption.
+This will use MD5 encryption.
