@@ -5,7 +5,7 @@
 To generate a password file:
 
 ```shell
-docker run --rm -ti xmartlabs/htpasswd <username> <password> > htpasswd
+docker run --rm -ti parkmo/htpasswd <username> <password> > htpasswd
 ```
 
-This will use bcrypt encryption.
+This will use SHA1 encryption.
